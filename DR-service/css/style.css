@@ -787,15 +787,20 @@ footer,.footer-section{
 }
 
 .cl-main h1{
-  font-family: Space Grotesk ;
+  font-family: "Space Grotesk ";
   font-size: 10rem;
+  line-height: 10rem;
   font-weight: 500; 
-  margin-bottom: 1rem;  
+  /* margin-bottom: 1rem;   */
   color: #fff;
 }
 .ip-main h4 + h1{
-  font-size: 4rem;
+  font-size:4rem;
+  font-family: "Space Grotesk" ;
+}
+.ch-content p{
   font-family: Space Grotesk ;
+  font-size: 1.5rem;
 }
 #claud-hero ul li{
   font-size: 1.5rem;
