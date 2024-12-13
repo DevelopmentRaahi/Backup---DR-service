@@ -2836,6 +2836,15 @@ z-index: -2;
     }
 }
 
+/* table */
+.green-dot {
+	width: 20px;           
+	height: 20px;          
+	background-color: rgb(102, 230, 102); 
+	border-radius: 50%;    
+	display: inline-block; 
+  }
+
 /* card */
 
   .cards-container {
