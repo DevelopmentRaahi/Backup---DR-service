@@ -2935,8 +2935,8 @@ z-index: -2;
 	border-top: 1px solid #eee;  
 	  display: flex;	   
 	  flex-wrap: wrap; 	
-	  gap: 10px;  	  
-	}
+	  gap: 10px; 
+	  	}
 	
   .card-footer_1 >a {	
 	margin-right: 10px;
@@ -2948,9 +2948,10 @@ z-index: -2;
 	cursor: pointer;
 	font-size: 16px;
 	font-family: Space Grotesk;;
-	display: block;
+	display:block;
 	text-align: center;
 	flex: 1 1 auto;
+		
   }
 
   .card-footer_1 a.btn-secondary {
@@ -2965,10 +2966,8 @@ z-index: -2;
     .card-footer_1 a.btn-primary:hover{
 		background-color: #b9babb56;
 	}
-@media screen and (max-width: 767px) {
-	.card-footer_1 div{	
-		margin-bottom: 10px;
-		width: 100%;	
-		justify-content: center;
+@media screen and (max-width: 740px) {
+	.card-footer_1 a{		
+		flex: 1 1 100%;			
 	}
 }
