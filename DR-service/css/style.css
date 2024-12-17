@@ -1141,12 +1141,13 @@ footer,.footer-section{
   margin: 1rem 0rem  ;
 }
 .sp-table table{
-  font-size: 1.3rem;
+  font-size: 1.2rem;
+  overflow-x: scroll;
 }
 .sp-table table th{
   /* display: inline-block; */
   font-weight: 400px;
-  font-size: 1.7rem;
+  font-size: 1.5rem;
   color: #37385f;
   font-family:Space Grotesk ; 
   margin-bottom: 1rem ; 
@@ -1154,7 +1155,7 @@ footer,.footer-section{
 }
 .sp-table table td{  
   font-weight: 400px;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   padding: 1rem 0;
   color: #37385f;
   font-family:Space Grotesk ;  
