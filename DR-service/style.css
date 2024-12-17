@@ -2966,6 +2966,27 @@ z-index: -2;
     .card-footer_1 a.btn-primary:hover{
 		background-color: #b9babb56;
 	}
+.table-header {
+	position: sticky;
+	top: 50px;
+	display: grid;
+	width: 100%;
+	grid-template-columns: 20% 25% 25% auto;
+	grid-template-rows: 120px;
+	align-items: center;
+	/* justify-items: left; */
+	border-bottom: 2px solid #eee;
+	background-color: #fff;
+  }
+.table-header li{
+	font-size: 1.7rem;
+	font-weight: 600;
+	font-family: Space Grotesk;
+	padding: 10px 5px;
+	/* text-align: center; */
+}
+ 
+
 @media screen and (max-width: 740px) {
 	.card-footer_1 a{		
 		flex: 1 1 100%;			
