@@ -2986,12 +2986,13 @@ z-index: -2;
 .table-header {	
 	display: grid;
 	width: 100vw;
-	grid-template-columns: 13% 1fr 1fr 1fr;
+	grid-template-columns: 13% repeat(3, 1fr) ;
 	grid-template-rows: auto;
 	/* align-items: center; */
 	/* justify-items: center; */
 	border-bottom: 2px solid #ffeded;
 	background-color: var(--bg-table-header);	
+	overflow-x: auto;
 	/* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
   }
   .table-header li:nth-of-type(1){

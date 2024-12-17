@@ -1155,15 +1155,19 @@ footer,.footer-section{
   padding: 1rem 0rem;
 }
 .sp-table table td{  
-  font-weight: 400px;
+  
   font-size: 1.1rem;
-  padding: 1rem 0;
+  padding: 0.7rem 0;
   color: #37385f;
   font-family:Space Grotesk ;  
-  transition: all 0.4s linear;
+  
 }
 
-
+@media  (max-width: 768px) {
+  .sp-table table td{
+    padding: 5px 0;
+  }
+}
 
 /* personal bussiness section */
 .pb-main{
