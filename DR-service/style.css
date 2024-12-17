@@ -2966,23 +2966,37 @@ z-index: -2;
     .card-footer_1 a.btn-primary:hover{
 		background-color: #b9babb56;
 	}
-.table-header {
+
+.header-table{
+	position: relative;
+}
+:root{
+	--bg-table-header: ;
+}
+.bg-header{
+	backdrop-filter: blur(5px);	
+	-webkit-backdrop-filter: blur(10px);
 	position: sticky;
-	top: 50px;
+	top: 0px;
+	left: 0;
+	z-index: 10000;	
+	 /* background-color: #f7f7f7; */
+}
+.table-header {	
 	display: grid;
 	width: 100%;
 	grid-template-columns: 20% 25% 25% auto;
-	grid-template-rows: 120px;
+	grid-template-rows: 90px;
 	align-items: center;
-	/* justify-items: left; */
-	border-bottom: 2px solid #eee;
-	background-color: #fff;
+	border-bottom: 2px solid #ffeded;
+	background-color: var(--bg-table-header);	
+	/* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
   }
 .table-header li{
 	font-size: 1.7rem;
 	font-weight: 600;
 	font-family: Space Grotesk;
-	padding: 10px 5px;
+	padding: 10px 5px 10px 0px;
 	/* text-align: center; */
 }
  
